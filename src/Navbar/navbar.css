@@ -1,0 +1,28 @@
+.header{
+    color: var(--black);
+   font-family: CipherSchools_font;
+    font-size: 30px;
+    font-weight: 750;
+    font-optical-sizing: 10;
+    letter-spacing: 2px;
+    padding: 0 2px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .middle {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: gray;
+   font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 750;
+    font-optical-sizing: 10;
+    letter-spacing: 2px;
+    padding: 0 2px;
+  }

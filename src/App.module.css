@@ -11,15 +11,20 @@
   border: 1px solid #ccc;
 }
 
+.divisionWide {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
 /* Apply styles for tablet mode (adjust the max-width as needed) */
 @media screen and (max-width: 768px) {
   .container {
     grid-template-columns: 1fr 2fr; /* Reduce to two columns for tablet mode */
     grid-template-rows: auto;
   }
-
-  .division-wide {
-    grid-row: 1; /* Place Division 3 in the first row for tablet mode */
+  .divisionWide {
+    display: none; /* Hide Division 3 in tablet mode */
   }
 }
 
@@ -32,8 +37,8 @@
   .division {
     display: none; /* Hide all divisions except Division 2 in phone mode */
   }
-  
-  .division-wide {
+
+  .divisionWide {
     display: block; /* Show only Division 2 in phone mode */
     width: 100%; /* Make Division 2 take full width in phone mode */
   }
