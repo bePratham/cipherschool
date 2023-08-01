@@ -1,27 +1,32 @@
 .card {
-    margin-left: 20px;
-    margin-top: 20px;
+  margin-left: 20px;
+    margin-top: 30px;
     width: 300px;
     padding: 20px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     border-radius: 8px;
     width: 300px;
-    height: 210px;
+    height: 240px;
     box-shadow: 3px 2px 3px 5px rgba(43, 38, 38, 0.1);
     border-radius: 10%;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     background-color: #ffffff;
   }
   .h2 {
     font-size: 24px;
     margin-bottom: 10px;
   }
-  
+  .items{
+    display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding-top: 20px ;
+  }
   .parag {
     font-size: 16px;
     margin-bottom: 20px;
@@ -33,12 +38,21 @@
   }
   
   .a{
-    display: inline-block;
-    padding: 5px 10px;
-    margin: 5px;
-    background-color: #007bff;
-    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    color: rgb(46, 38, 38);
     text-decoration: none;
     border-radius: 5px;
+    margin: 5px 0; 
+    display: flex;
+   align-items: center; 
   }
-  
+  .a svg {
+    margin-right: 8px; /* Add some space between the icon and text */
+  }
+  .a:hover {
+    color: #F45046; /* Change to the desired color on hover */
+  }
+  .a:last-child {
+    margin-bottom: 10px; /* Add more margin to the last link to create space after it */
+  }
