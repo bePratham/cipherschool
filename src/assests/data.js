@@ -59,7 +59,7 @@ const userData={
             "firstName": "Oleta",
             "lastName": "Abbott",
             "maidenName": "Wyman",
-            "email": "dpettegre6@columbia.edu",
+            "email": "dpettegre6@",
             "username": "dpettegre6",
             "image": "https://robohash.org/cupiditatererumquos.png",
             },
