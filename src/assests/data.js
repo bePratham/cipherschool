@@ -1,0 +1,93 @@
+const userData={
+    "users": [
+        {
+            "id": 1,
+            "firstName": "Terry",
+            "lastName": "Medhurst",
+            "maidenName": "Smitham",
+            "email": "atuny0@sohu.com",
+            "username": "atuny0",
+            "image": "https://robohash.org/hicveldicta.png",
+           },
+        {
+            "id": 2,
+            "firstName": "Sheldon",
+            "lastName": "Quigley",
+            "maidenName": "Cole",
+            "email": "hbingley1@plala.or.jp",
+            "username": "hbingley1",
+            "image": "https://robohash.org/doloremquesintcorrupti.png",
+          },
+        {
+            "id": 3,
+            "firstName": "Terrill",
+            "lastName": "Hills",
+            "email": "rshawe2@51.la",
+            "username": "rshawe2",           
+            "image": "https://robohash.org/consequunturautconsequatur.png",
+        },
+        {
+            "id": 4,
+            "firstName": "Miles",
+            "lastName": "Cummerata",
+            "email": "yraigatt3@nature.com",
+            "username": "yraigatt3",
+            "password": "sRQxjPfdS",
+            "birthDate": "1969-01-16",
+            "image": "https://robohash.org/facilisdignissimosdolore.png",
+             },
+        {
+            "id": 5,
+            "firstName": "Mavis",
+            "lastName": "Schultz",
+            "maidenName": "Yundt",
+            "email": "kmeus4@upenn.edu",
+            "username": "kmeus4",           
+            "birthDate": "1968-11-03",
+            "image": "https://robohash.org/adverovelit.png",
+             },
+        {
+            "id": 6,
+            "firstName": "Alison",
+            "lastName": "Reichert",
+            "email": "jtreleven5@nhs.uk",
+            
+            "image": "https://robohash.org/laboriosamfacilisrem.png",
+            },
+        {
+            "id": 7,
+            "firstName": "Oleta",
+            "lastName": "Abbott",
+            "maidenName": "Wyman",
+            "email": "dpettegre6@columbia.edu",
+            "username": "dpettegre6",
+            "image": "https://robohash.org/cupiditatererumquos.png",
+            },
+        {
+            "id": 8,
+            "firstName": "Ewell",
+            "lastName": "Mueller",
+            "email": "ggude7@chron.com",
+            "username": "ggude7",
+            "image": "https://robohash.org/quiaharumsapiente.png",
+            },
+        {
+            "id": 9,
+            "firstName": "Demetrius",
+            "lastName": "Corkery",
+            "email": "nloiterton8@aol.com",
+           "username": "nloiterton8",
+             "image": "https://robohash.org/excepturiiuremolestiae.png",
+           },
+        {
+            "id": 10,
+            "firstName": "Eleanora",
+            "lastName": "Price",
+            "maidenName": "Cummings",
+            "email": "umcgourty9@jalbum.net",
+            "username": "umcgourty9",
+            "image": "https://robohash.org/aliquamcumqueiure.png",
+             }
+    ]
+    };
+    export default userData;
