@@ -11,12 +11,19 @@ const App = () => {
     <>
     <Navbar />
     <div className={style.container}>
-      <Division1 />
-      <Division2 className={style.divisionWide}/>
-      <Division3 />
-    </div>
+        <div className={style.scrollableContent}>
+          <Division1 />
+        </div>
+        <div className={`${style.divisionWide} ${style.scrollableContent}`}>
+          <Division2 />
+        </div>
+        <div className={style.scrollableContent}>
+          <Division3 />
+        </div>
+      </div>
     </>
   );
 };
 
 export default App;
+
