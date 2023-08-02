@@ -1,11 +1,15 @@
 import React from "react";
-import style from '../App.module.css'
-import Card2 from "../Division1/card2/Card2";
+import appstyle from '../App.module.css'
+import Navbar from "./Navbar/Navbar";
 const Division2 = () => {
+  const [activeTab, setActiveTab] = React.useState('section1');
   return (
-    <div className={style.divisionWide}>
-      <h1>Division 2</h1>
-      <p>This is the content of Division 2.</p>
+    <div className={appstyle.divisionWide}>
+      <div>
+      <Navbar setActiveTab={setActiveTab} />
+      {activeTab === 'section1' ? '<Section1 />' : '<Section2 />'}
+      </div>
+     
       </div>    
   );
 };

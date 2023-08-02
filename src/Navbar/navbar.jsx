@@ -17,7 +17,8 @@
           </div>
         <Navbar.Toggle />
         <p className="middle" >
-          Community-Posts
+          {/* Community-Posts */}
+          Posts
         </p>
         <div className='ending'>
         <Navbar.Collapse>

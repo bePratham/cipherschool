@@ -12,7 +12,7 @@ const Card3 = () => {
              src={user.image} alt={user.username} />
           </div>
           <p className={style.parag}>{user.email}</p>
-          <p style={{marginLeft:'auto',marginRight:'6px',fontSize:'13px',fontWeight:'bold'}}>
+          <p className={style.follow}style={{marginLeft:'auto',marginRight:'6px',fontSize:'13px',fontWeight:'bold',marginTop:'20px'}}>
             <PlusIcon style={{height:'15px',width:'15px', color:'Red'
             }}/>Follow</p>
           <p className={style.name}>{user.firstName} {user.lastName}</p>

@@ -8,9 +8,8 @@
 }
 
 .divisionWide {
-  padding: 20px;
-  background-color: #f0f0f0;
-  margin-left: 7px;
+  background-color: #ffffff;
+  /* margin-left: 7px; */
   /* border: 1px solid #ccc; */
 }
 .scrollableContent {
@@ -25,7 +24,7 @@
     grid-template-columns: 1fr 2fr; /* Reduce to two columns for tablet mode */
     grid-template-rows: auto;
   }
-  .divisionWide {
+  .division3 {
     display: none; /* Hide Division 3 in tablet mode */
   }
 }
@@ -42,7 +41,7 @@
 
   .divisionWide {
     display: block; /* Show only Division 2 in phone mode */
-    width: 100%; /* Make Division 2 take full width in phone mode */
+    /* width: 100%; Make Division 2 take full width in phone mode */
   }
 }
 
