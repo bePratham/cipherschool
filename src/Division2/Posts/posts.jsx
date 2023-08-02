@@ -1,5 +1,6 @@
 import React from 'react'
 import userData from '../../assests/data';
+
 import style from './card.module.css';
 import {PlusIcon} from '@heroicons/react/24/solid'
 import {EllipsisVerticalIcon} from '@heroicons/react/24/solid'
