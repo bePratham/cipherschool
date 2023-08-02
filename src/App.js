@@ -14,7 +14,7 @@ const App = () => {
         <div className={style.scrollableContent}>
           <Division1 />
         </div>
-        <div className={`${style.divisionWide} ${style.scrollableContent}`}>
+        <div >
           <Division2 />
         </div>
         <div className={style.scrollableContent}>

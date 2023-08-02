@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import style from './style.module.css'
 const Navbar = ({setActiveTab}) => {
-  const [tabName, setTabName] = useState('Section1');
+  const [tabName, setTabName] = useState('section1');
   const handleTabClick = (tabName) => {
     setTabName(tabName);
     setActiveTab(tabName.toLowerCase());

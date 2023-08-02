@@ -4,7 +4,7 @@ import style from './card.module.css';
 import {PlusIcon} from '@heroicons/react/24/solid'
 const Card3 = () => {
   return (
-    <div className={style.card}>
+    <div >
       {userData.users.map((user, index) => (
         <div className={style.item} key={index}>
           <div>

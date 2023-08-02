@@ -1,5 +1,6 @@
 import React from "react";
 import style from '../Division1/card/styles.module.css'
+import styles from './card3/card.module.css';
 import Card from './card/card.jsx';
 import appstyle from '../App.module.css'
 import Card2 from "./card2/Card2";
@@ -14,7 +15,7 @@ const Division1 = () => {
     <div>
     <Card2/>
     </div>
-    <div>
+    <div  className={styles.card}>
       <Card3/>
     </div>
     </div>
