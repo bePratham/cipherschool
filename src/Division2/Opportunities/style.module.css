@@ -1,0 +1,55 @@
+.completeCard{
+    margin-top: 13px;
+    border-radius: 7px;
+    height: auto;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black; 
+    box-shadow: 0 1px 9px rgba(56, 53, 53, 0.7);
+}
+.profilePic{
+    width: 10px;
+    height: 10px;
+}
+  .firstLine {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12px;
+    font-weight: 700;
+    padding-top: 8px;
+    margin-bottom: -10px;
+    margin-right: 15px;
+  }
+  .days{
+    margin-left: 12px;
+    font-size: 12px;
+    color: #F45046;
+  }
+  .loremText {
+    margin-left: 12px;
+    }
+  .content{
+    display: flex;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  .readMoreButton {
+    border: none;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 500;
+    color: #F45046;
+  }
+  
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+  }
+  
+  .iconsContainer {
+    height: 35px;
+    margin-left: 13px;
+  }
+  
