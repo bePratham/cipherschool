@@ -65,7 +65,7 @@ const userData ={ "users":[
     numberOfComments: 5,
     numberOfRetweets: 10,
     numberOfLikes: 50,
-    impressions: 1000,
+    impressions: 234,
   },
   {
     id: 't1',

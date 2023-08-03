@@ -1,12 +1,5 @@
 /* styles.css */
-.division {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 33.33%;
-    height: 100vh; /* Adjust this to set the height of each division */
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
+.division { /* Adjust this to set the height of each division */
+    margin-left: 26px;
   }
   
